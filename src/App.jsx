@@ -26,7 +26,6 @@ function App() {
 
           {/* About Route Link */}
           <br />
-          <Link to="/about">Go to About Page</Link>
         </div>
 
         <button
