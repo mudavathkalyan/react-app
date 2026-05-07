@@ -3,9 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18
-
-  pre_build:
+      nodejs: 20
     commands:
       - npm install
 
@@ -14,6 +12,6 @@ phases:
       - npm run build
 
 artifacts:
-  base-directory: dist
   files:
     - '**/*'
+  base-directory: dist
